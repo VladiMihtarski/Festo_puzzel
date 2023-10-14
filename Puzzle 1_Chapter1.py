@@ -37,7 +37,7 @@ def is_valid_recipe(recipe):
     return True
 
 # Четене на рецептите от файла
-recipe_file = r'C:\Users\user\Desktop\My proget\New folder\Festo\11_keymaker_recipe.txt'
+recipe_file = r'11_keymaker_recipe.txt'
 with open(recipe_file, 'r') as file:
     recipes = file.readlines()
 
